@@ -1,0 +1,172 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+}
+.calendar {
+  box-shadow: 0 0 35px #ccc;
+
+}
+.month {
+  display: flex;
+  justify-content: center;
+  background-color: cadetblue;
+  color: white;
+}
+.weeks {
+  background-color: cadetblue;
+  font-size: 17px;
+  color: white;
+}
+.weeks span {
+  padding: 12px;
+}
+.calendar input[type=radio] {
+  display: none;
+}
+.calendar label {
+  font-weight: bold;
+  text-align: center;
+  padding: 19px;
+  user-select: none;
+  overflow: hidden;
+}
+.days label{
+  display: inline-block;
+  cursor: pointer;
+}
+.days label {
+  font-weight: bold;
+  width: 13.3%;
+  text-align: center;
+  padding: 10px;
+}
+.days1 label{
+  display: inline-block;
+  cursor: pointer;
+}
+.days1 label {
+  font-weight: bold;
+  width: 13.3%;
+  text-align: center;
+  padding: 10px;
+}
+.days1 input[type=radio] + label[for="radio24"]{
+  background-color: mediumvioletred;
+  color: white;
+}
+.calendar input[type=radio]:checked + label {
+  background: indigo;
+  color: white;
+}
+.calendar label:hover {
+  color: white;
+  background: cadetblue;
+}
+.days input[type=radio] + label[for="radio27"]{
+  background-color: darkgray;
+  color: dimgray;
+}
+.days input[type=radio] + label[for="radio28"]{
+  background-color: darkgray;
+  color: dimgray;
+}
+.days input[type=radio] + label[for="radio29"]{
+  background-color: darkgray;
+  color: dimgray;
+}
+.days input[type=radio] + label[for="radio30"]{
+  background-color: darkgray;
+  color: dimgray;
+}
+.days input[type=radio] + label[for="radio31"]{
+  background-color: darkgray;
+  color: dimgray;
+}
+.days input[type=radio] + label[for="radio-1"]{
+  background-color: darkgray;
+  color: dimgray;
+}
+.days input[type=radio] + label[for="radio-2"]{
+  background-color: darkgray;
+  color: dimgray;
+}
+.days input[type=radio] + label[for="radio-3"]{
+  background-color: darkgray;
+  color: dimgray;
+}
+.days input[type=radio] + label[for="radio-4"]{
+  background-color: darkgray;
+  color: dimgray;
+}
+.days input[type=radio] + label[for="radio-5"]{
+  background-color: darkgray;
+  color: dimgray;
+}
+.days input[type=radio] + label[for="radio-6"]{
+  background-color: darkgray;
+  color: dimgray;
+}
+.days input[type=radio] + label[for="radio1"]{
+  background-color: white;
+  color: black;
+}
+.days input[type=radio] + label[for="radio2"]{
+  background-color: white;
+  color: black;
+}
+.days input[type=radio]:hover + label[for="radio1"]{
+  color: white;
+  background: cadetblue;
+}
+.days input[type=radio]:hover + label[for="radio2"]{
+  color: white;
+  background: cadetblue;
+}
+.days1 input[type=radio]:checked + label[for="radio24"] {
+  background: cornflowerblue;
+  color: white;
+}
+.days input[type=radio]:checked + label[for="radio3"] {
+  background: cornflowerblue;
+  color: white;
+}
+.days input[type=radio]:checked + label[for="radio10"] {
+  background: cornflowerblue;
+  color: white;
+}
+.days input[type=radio]:checked + label[for="radio17"] {
+  background: cornflowerblue;
+  color: white;
+}
+
+.days input[type=radio]:checked + label[for="radio-31"] {
+  background: cornflowerblue;
+  color: white;
+}
+.days input[type=radio]:checked + label[for="radio9"] {
+  background: cornflowerblue;
+  color: white;
+}
+.days input[type=radio]:checked + label[for="radio16"] {
+  background: cornflowerblue;
+  color: white;
+}
+.days input[type=radio]:checked + label[for="radio23"] {
+  background: cornflowerblue;
+  color: white;
+}
+.days1 input[type=radio]:checked + label[for="radio-30"] {
+  background: cornflowerblue;
+  color: white;
+}
+
+
